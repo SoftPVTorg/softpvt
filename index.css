@@ -1,0 +1,214 @@
+/*navbar*/
+.navbar
+{background: white;
+opacity: 0.8;}
+.dragon
+{
+	padding-left: 0px !important;
+	margin-left: 0px !important;
+}
+
+.dragon img
+{
+	margin-left: 25px !important;
+	width: 80px !important;
+}
+.dragon h5
+{
+	text-align: justify;
+	font-size: 12px !important;
+}
+
+.lt
+{
+	font-family: 'Charm', cursive;
+color: black;
+font-weight: bold;
+padding-left: 4px;}
+
+.navbar-nav i,a
+{
+	color: black !important;
+}
+
+.king
+{
+	padding: 0px !important;
+}
+
+/*slider*/
+.carousel-item img
+{
+	
+	max-height:610px;
+	
+
+}
+
+ .carousel-control-prev:hover, .carousel-control-next:hover
+ {
+ 	background: black !important;
+ 	opacity: 0.3!important;
+ 	
+ }
+
+ .carousel-control-prev:hover, .carousel-control-next:hover
+ {
+ 	color: white!important;
+ }
+
+ .carousel-control-prev:hover .icon, .carousel-control-next:hover .icon
+ {
+ 	color: white!important;
+ }
+.carousel-indicators li {
+	background:black!important;
+  width: 10px!important;
+  height: 10px!important;
+  border-radius: 100%;
+}
+.carousel-indicators li:hover
+{
+	background: white!important;
+}
+
+@media(max-width: 500px)
+{
+	.queen
+	{
+		height: 200px !important;
+		object-fit: contain!important;
+	}
+}
+
+.icon{color: black!important;}
+
+
+/*Kitchen Team*/
+
+
+
+.text-center{color: black;}
+
+.ct1:before
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.ct2:before, .ct2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.ct2:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+.ct3:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  right: 10px;
+  left: auto;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
+
+.card-body{background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);}
+
+/*fruit*/
+.f1{padding-top: 100px;}
+
+.fc img
+{
+	height: 300px !important;
+	width: 100%!important;
+
+
+}
+.carousel-inner
+{
+	box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+            0 5px 15px 0 rgba(0,0,0,0.08);	
+}
+
+.fruit
+{
+	height: 500px;
+
+}
+
+.boy
+{
+	height: 63px;
+	bottom: 184px;
+	left: 322px;
+}
+
+/*map*/
+
+.map
+{
+ color: white;
+ 
+ padding: 0px!important;
+}
+
+
+
+
+
+
+
+
